@@ -1,5 +1,5 @@
 # faplex modified for evaluation
-A fast k-plex enumeration algorithm, this is based on the work published here https://github.com/aaai20-id9699/faplex
+A fast k-plex enumeration algorithm, this is based on the work published here https://github.com/aaai20-id9699/faplex.
 This version builds on original version, only adding metrics to evaluate the found k-plexes for all possible k values
 
 # Setup
@@ -28,8 +28,8 @@ make -j4
       -v[verb], --verb=[verb]           print solutions or not
 
 # Usage example
-./toBin ./Custom_graph1.txt
-./build/enplex --file=./Custom_graph1.bin
+    ./toBin ./Custom_graph1.txt
+    ./build/enplex --file=./Custom_graph1.bin
 
 # Format
 The input graph should be a binary format.
