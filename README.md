@@ -1,4 +1,4 @@
-# faplex modified for evaluation
+# enplex modified for evaluation: menplex
 A fast k-plex enumeration algorithm, this is based on the work published here https://github.com/aaai20-id9699/faplex.
 This version builds on original version, only adding metrics to evaluate the found k-plexes for all possible k values
 
@@ -11,9 +11,9 @@ make -j4
 ```
 
 # Usage
-  ./build/enplex {OPTIONS}
+  ./build/menplex {OPTIONS}
 
-    Enplex, a software for enumerating kplex
+    menplex, a software for enumerating kplex
 
   OPTIONS:
 
@@ -29,7 +29,7 @@ make -j4
 
 # Usage example
     ./toBin ./Custom_graph1.txt
-    ./build/enplex --file=./Custom_graph1.bin
+    ./build/menplex --file=./Custom_graph1.bin
 
 # Format
 The input graph should be a binary format.
